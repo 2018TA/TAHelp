@@ -1,3 +1,26 @@
 <template name="help">
-<h1>get help here</h1>
+    <div class = "jumbotron">
+        <h1>Submit your questions here!</h1>
+    </div>
+    <center>
+    <input class = "text-center" type="text" placeholder = "name" id="name"/>
+    <br>
+    <br>
+    Enter Your Problem Below
+    <br>
+    <textarea cols = "100%" class = "text-center" type="text" id="problem"> </textarea>
+    <br>
+    <br>
+
+    Priority
+    <br>
+    <select id = "priority">
+        <option value = "low">low</option>
+        <option value = "medium">medium</option>
+        <option value = "high">high</option>
+    </select>
+    <br><br>
+    <button class = "success" id="submit">submit</button>
+</center>
+
 </template>
